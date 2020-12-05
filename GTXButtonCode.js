@@ -14,7 +14,12 @@ function report() {
 }
 //Shift End Button
 function shiftend() {
-    alert('Shift Ended');
+    var start = confirm('End Shift?');
+    if (start == true) {
+        alert('Shift ended on ' + month + '/' + day + '/' + year + ' at ' + hour + ':' + minute + ':' + second);
+        //console prints date and time of shift start
+        console.log('Shift ended on ' + month + '/' + day + '/' + year + ' at ' + hour + ':' + minute + ':' + second);
+    }
 }
 //testing report data button
 function GTX() {
