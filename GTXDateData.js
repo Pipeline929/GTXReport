@@ -13,3 +13,4 @@ var reportList=document.getElementById("display");*/
 //continue on https://stackoverflow.com/questions/10523200/storing-user-input-in-array
 
 //var dotw=Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+console.log(month + "/" + day)
